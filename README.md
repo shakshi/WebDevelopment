@@ -1,5 +1,11 @@
 # WebDevelopment
 
+## - Golden Assets Website
+    Developed using HTML, CSS and JS
+    Scroll Up and Down Feature
+    Display Dailogs on hover
+<img src="https://github.com/shakshi/WebDevelopment/blob/master/GoogleMapPointers/places_screenshot.PNG" height="450px"/>
+    
 ## - Embed Google Maps in web page
 
 <img src="https://github.com/shakshi/WebDevelopment/blob/master/GoogleMapPointers/places_screenshot.PNG" height="450px"/>
