@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+</head>
+
+<body>
+<h1>TRAINS :DELHI TO BATALA </h1>
+
+<div id='display' style="display:flex; justify-content:space-around">
+	<div>
+		
+		<h2> <i> Stations: </i></h2>
+		<h3>
+		<div id='station1'>Delhi Jn	</div>
+		<div id='station2'>Panipat Jn</div>
+		<div id='station3'>Karnal</div>
+		<div id='station4'>Kurukshetra Jn</div>
+		<div id='station5'>Ambala Cantt Jn</div>
+		<div id='station6'>Sirhind Jn</div>
+		<div id='station7'>Ludhiana Jn</div>
+		<div id='station8'>Jalandhar City</div>
+		<div id='station9'>Beas Jn</div>
+		<div id='station10'>Batala Jn</div>
+		</h3>
+	</div>
+
+
+	<div id="googleMap" style="width:500px;height:500px;"></div>
+	</div>
+</div>    
+
+<script src='stations.js'></script>
+<script>
+google.maps.event.addDomListener(window, 'load', init);
+</script>
+
+</body>
+
+</html>
+
