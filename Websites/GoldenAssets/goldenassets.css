@@ -1,0 +1,525 @@
+main,body
+{	margin:0;
+	position:relative;
+}
+#home
+{	background-image:url('images/header-bg.jpg');
+	background-size: 100% auto;
+	padding: 2% 15%;
+	padding-bottom:0%;
+	background-repeat:no-repeat;
+	font-family:montserrat;
+	color:white;
+	font-style:normal;
+
+}
+#home header
+{	
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+#home ul
+{	display :flex;
+	justify-content:space-between; 
+}
+#home a 
+{	text-decoration: none;
+	color: white;
+}
+#home li 
+{	list-style:none;
+	font-size:14px;
+}
+#home nav 
+{	width:58%;
+	min-width:400px;
+}
+
+#navbar >a
+{	display:none;
+	padding-left:70%;
+}
+/*********************************************************/
+@media screen and (max-width:740px)
+{	
+	#home header #bars
+	{	display:block;
+	}
+	#home header>nav>ul
+	{
+		display:none;
+	}
+	#home header div
+	{	display:flex;
+		justify-content:space-between;
+		align-items:center;
+	}
+	#home header
+	{	display:flex;
+		flex-direction:column;
+		justify-content:space-between;
+		align-items:center;
+	}
+	
+	#navbar:target
+	{	display:block;
+		position:relative;
+
+	}
+	
+	#navbar:target ul
+	{	display:flex;
+		flex-direction:column;
+		justify-content:space-between;
+		align-items:center;
+		margin:0;
+		padding:0;
+	}
+	
+	#navbar :target #bars2 
+	{	display:block;
+		
+	}
+	#navbar :target #bars1
+	{	display:none;
+		
+	}
+	#navbar:target li
+	{	padding:2%;
+	}
+}
+
+#topcontainer
+{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:space-between;
+	padding:19% 0%;
+	padding-bottom: 16%;
+}
+#topcontainer span
+{	padding:.5% 0%;
+}
+#home #top1
+{
+  font-family: droid-serif;
+  font-style: italic;
+  font-size: 40px;
+}
+#top2
+{
+	font-size: 75px;
+	font-weight: bold;
+}
+#topcontainer #top3
+{	
+	background-color: rgb(247, 208, 86);
+	font-size:18px;
+	font-weight:bold;
+	margin-top: 3%;
+	padding: 2.5% 6%;
+	border-radius: 4%;
+}
+
+
+#services
+{	padding:8% 15%;
+	font-style:normal;
+	font-weight:normal;
+}
+#services header, #portfolio header,#about header,#team header,#contact header
+{	
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+#services header h3,#portfolio header h3,#about header h3,#team header h3,#contact header h3
+{
+  font-family: montserrat ;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 0.8%;
+}
+#services header span, #portfolio header span ,#about header span,#team header span,#contact header span
+
+{	font-family: droid-serif;
+    font-size: 19px;
+    font-style: italic;
+	color: rgb(140, 138, 138);
+}
+#services article
+{	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+#services div
+{	display:flex;
+	justify-content:space-around;
+	padding-top:10%;
+}
+
+@media screen and (max-width:900px)
+{	main #services div
+	{	display:flex;
+		flex-direction:column;
+		justify-content:space-around;
+		padding-top:10%;
+	}
+	main #services article
+	{	padding:4%;
+	}
+}
+#services article h3 
+{font-family: montserrat;
+  font-size:18px;
+  font-weight:bold;
+}
+#services article p 
+{	font-family: Roboto-slab;
+  font-size: 14px;
+  color: rgb(140, 138, 138);
+  margin: 0;
+  text-align:center;
+}
+
+
+#portfolio,#team
+{	background-color: rgba(249, 249, 249, 1);
+	padding:8% 11%;
+}
+#portfolio a 
+{	text-decoration:none;
+
+}
+#portfolio table
+{	padding-top: 8%;
+  border-spacing: 27px;
+}
+table td
+{ 	background-color:white;
+	width:30%;
+}
+table td h3
+{
+	text-align:center;
+	font-family: montserrat;
+	font-size: 18px;
+	font-style: normal;
+	margin: 0;
+	margin-top: 8%;
+}
+table td p 
+{ 
+	text-align:center;
+	font-family: droid-serif;
+	font-size: 16px;
+	font-style: italic;
+	color: rgb(140, 138, 138);
+	margin: 0.5%;
+	margin-bottom: 8%;
+}
+table td 
+{	position:relative;
+}
+table td .tooltriangle
+{	display:none;
+	position:absolute;
+	top:50%;
+	left:40%;
+	height:0;
+	width:0;
+	border-right:20px solid yellow;
+	border-bottom:10px solid transparent;
+	border-top:10px solid transparent;
+	z-index:19999;
+
+}
+table td .tooltip
+{
+top:50%;
+left:45%;
+position:absolute;
+display:none;
+height:50px;
+width:200px;
+background-color:yellow;
+z-index:20000;
+}
+td:hover .tooltip
+{display:block;
+}
+td:hover .tooltriangle
+{display:block;
+}
+.lightbox
+{
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: rgba(89, 84, 84, 0.45);
+  text-align: center;
+  padding: 15% 0;
+}
+
+
+.lightbox img {
+  width: 30%;
+  height: auto;
+}
+.lightbox >a> i
+{	color:white;
+}
+#img1:target ,#img2:target,#img3:target,#img4:target,#img5:target,#img6:target
+{	display:block;
+}
+
+#about 
+{	padding:8% 15%;
+}
+#about-container
+{	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	align-items:center;
+	padding-top:7.8%;
+}
+#about img
+{	border: 7px solid rgb(249, 245, 245);
+	border-radius: 50%;
+	width: 18%;
+	height: 24%;
+}
+#about .odd
+{	display:flex;
+	justify-content:flex-start;
+}
+#about .even
+{	display:flex;
+	justify-content:flex-end;
+}
+
+#about .vertical-line
+{	width: .4%;
+	height: 13%;
+	background-color:rgb(249, 245, 245);
+}
+#continue-circle img
+{	
+	background-color: rgb(255, 213, 0);
+  width: 80%;
+  height: 27%;
+}
+.odd h3,.even h3 
+{
+  font-family: Montserrat;
+  margin: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color:black;
+}
+.odd >div
+{	text-align:right;
+	width:39%;
+	height:18%;
+	margin-right:10px;
+	color:rgb(140, 138, 138);
+}
+.even >div 
+{	text-align:left;
+	width:39%;
+	height:18%;
+	margin-left:10px;
+	color:rgb(140, 138, 138);
+}
+@media screen and (max-width:764px)
+{	.odd >div
+	{	text-align:right;
+	width:70%;
+	height:18%;
+	margin-right:10px;
+	color:rgb(140, 138, 138);
+	}
+
+	.even >div 
+	{	text-align:left;
+	width:70%;
+	height:18%;
+	margin-left:10px;
+	color:rgb(140, 138, 138);
+	}
+
+
+}
+
+
+
+#logos 
+{
+  display: flex;
+  padding: 4% 19%;
+  justify-content: space-between;
+  margin: 0;
+}
+
+#team  #team-container
+{	padding: 8% 11%;
+	padding-bottom: 5%;
+	display:flex;
+	justify-content:space-between;
+}
+@media screen and (max-width:784px)
+{	main #team  #team-container
+	{	padding: 8% 11%;
+		padding-bottom: 5%;
+		display:flex;
+		justify-content:space-between;
+		flex-direction:column;
+	}
+	main #team img
+	{
+	border: 7px solid white;
+	border-radius: 50%;
+	width: 50%;
+	height: auto;
+	box-sizing:border-box;
+	}
+	#team-container> div
+	{
+	display:flex;
+	justify-content:space-between;
+	flex-direction:column;
+	align-items:center;
+
+	}
+
+
+}
+#team img {
+  border: 7px solid white;
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+  box-sizing:border-box;
+}
+.icons
+{	display:flex;
+	justify-content:space-around;
+}
+#team .icons i 
+{	color: rgba(18, 18, 18, 0.99);
+	border: 3px solid  rgba(18, 18, 18, 0.99);
+	border-radius: 50%;
+	padding: 4px;
+}
+#team h3
+{	text-align: center;
+  font-family: montserrat;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: rgba(18, 18, 18, 0.99);
+}
+
+#team h4
+{	text-align:center;
+	font-family: Roboto Slab;
+	font-size: 16px;
+	font-style: normal;
+	font-weight:normal;
+	color: rgb(140, 138, 138);
+	margin-top:0;
+}
+#team #team-text
+{	text-align:center;
+	font-family: Roboto Slab;
+	font-size: 16px;
+	font-style: normal;
+	font-weight:normal;
+	color: rgb(140, 138, 138);
+	padding:2%;
+
+}
+
+#contact
+{	background-image:url('images/contact-us-bg.jpg');
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	padding: 8% 10%;
+	color:white;
+}
+
+#contact input
+{	color: rgb(140, 138, 138);
+	font-family: montserrat;
+	font-size: 14px;
+	font-weight: bold;
+}
+#form
+{	display:flex;
+	justify-content:space-around;
+	flex-direction:column;
+	align-items:center;
+	padding-top:8%;
+}
+#labels
+{	display:flex;
+	justify-content:space-around;
+}
+#contact #submit-button
+{	
+  background-color: rgb(244, 230, 88);
+  font-family: montserrat;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 11% 18%;
+  border-radius: 3%;
+  color: white;
+  border: 0;
+}
+#labels input 
+{
+  width: 85%;
+  height: 8%;
+  margin: 3% 0%;
+  border: 0;
+  border-radius: 5%;
+}
+#form-rightbox textarea {
+  height: 38.5%;
+  margin: 3.5% 0%;
+}
+
+#copyright-icons
+{	
+	display:flex;
+	justify-content:space-between;
+	width:
+}
+footer 
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 3% 12%;
+  color: rgb(94, 91, 91);
+  font-family: montserrat;
+  font-size: 14px;
+}
+#copyright-icons i
+{	color:black;
+	border-radius: 50%;
+	padding: 4px;
+}
+#sss
+
+{height:40px;
+
+}
