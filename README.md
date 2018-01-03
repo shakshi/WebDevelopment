@@ -15,11 +15,13 @@
 
 <img src="https://github.com/shakshi/WebDevelopment/blob/master/MusicPlayer/musicPlayerScreenshot.PNG" height="200px"/>
 
-## Respond to Events
+## Animations
+<img src="https://github.com/shakshi/WebDevelopment/blob/master/Animations/animation1.gif" height="350px"/>
+<img src="https://github.com/shakshi/WebDevelopment/blob/master/Animations/animation2.gif" height="350px"/>
    
     
 ## Drag Web page Elements and Files 
-<img src="https://github.com/shakshi/WebDevelopment/blob/master/DragElements/dragDemo.gif" height="200px"/>
+<img src="https://github.com/shakshi/WebDevelopment/blob/master/DragElements/dragDemo.gif" height="300px"/>
 
     
     
