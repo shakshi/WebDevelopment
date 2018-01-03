@@ -16,6 +16,10 @@
 <img src="https://github.com/shakshi/WebDevelopment/blob/master/MusicPlayer/musicPlayerScreenshot.PNG" height="200px"/>
 
 ## Respond to Events
-    Keystokes
+   
+    
+## Drag Web page Elements and Files 
+<img src="https://github.com/shakshi/WebDevelopment/blob/master/DragElements/dragDemo.gif" height="200px"/>
+
     
     
