@@ -20,5 +20,7 @@
 ## - Music Player with play, pause and stop options
 <img src="https://github.com/shakshi/WebDevelopment/blob/master/MusicPlayer/musicPlayerScreenshot.PNG" height="200px"/>
 
-    
+## - Handling Events like KeyPress
+<img src="https://github.com/shakshi/WebDevelopment/blob/master/Events/UsingArrowKeys/BoxDemo.gif" height="300px"/>
+
     
