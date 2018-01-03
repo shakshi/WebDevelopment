@@ -6,11 +6,11 @@
     Display Dailogs on hover
 <img src="https://github.com/shakshi/WebDevelopment/blob/master/Websites/GoldenAssets/goldenAssetsGif.gif" height="400px"/>
     
-## Animations
+## - Animations
 <img src="https://github.com/shakshi/WebDevelopment/blob/master/Animations/animation1.gif" height="350px"/>
 <img src="https://github.com/shakshi/WebDevelopment/blob/master/Animations/animation2.gif" height="350px"/>
    
- ## Drag Web page Elements and Files 
+## - Drag Web page Elements and Files 
 <img src="https://github.com/shakshi/WebDevelopment/blob/master/DragElements/dragDemo.gif" height="300px"/>
 
 ## - Embed Google Maps in web page
